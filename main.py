@@ -10,6 +10,7 @@ def main(page: ft.Page):
     page.current_position=0
     page.current_position_text_value="00:00"
     page.current_position_text_inverted_mode=0
+    page.accent_color=ft.colors.WHITE
 
     def upadate_controls(_):
         page.current_position=audio.get_current_position()
@@ -71,15 +72,15 @@ def main(page: ft.Page):
         max=page.duration,
         on_change=seek_sldr_change,
         expand=1,
-        thumb_color=ft.colors.ORANGE,
-        active_color=ft.colors.ORANGE,
+        thumb_color=page.accent_color,
+        active_color=page.accent_color,
     )
 
     playbtn=ft.IconButton(
         icon=ft.icons.PLAY_CIRCLE,
         on_click=playbtn_clk,
         expand=1,
-        icon_color=ft.colors.ORANGE,
+        icon_color=page.accent_color,
     )
 
     current_position_text=ft.TextButton(
@@ -87,7 +88,7 @@ def main(page: ft.Page):
         on_click=invert_current_position_text,
         expand=1,
         style=ft.ButtonStyle(
-            color=ft.colors.ORANGE,
+            color=page.accent_color,
         )
     )
 
@@ -97,8 +98,8 @@ def main(page: ft.Page):
         value=.1,
         on_change=volume_sldr_change,
         expand=2,
-        thumb_color=ft.colors.ORANGE,
-        active_color=ft.colors.ORANGE,
+        thumb_color=page.accent_color,
+        active_color=page.accent_color,
     )
 
 
@@ -111,7 +112,7 @@ def main(page: ft.Page):
                 padding=2,
                 border_radius=ft.border_radius.all(20),
                 bgcolor=ft.colors.BLACK,
-                width=300,
+                width=600,
                 content=ft.Column(controls=[
                     ft.Row([
                         seek_sldr,

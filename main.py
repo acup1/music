@@ -2,12 +2,11 @@ import flet as ft
 import asyncio,threading
 
 
-
-
 playback=False
 duration=0
 current_position=0
 current_position_text_value="00:00"
+current_position_text_inverted_mode=0
 
 def main(page: ft.Page):
     
@@ -18,10 +17,18 @@ def main(page: ft.Page):
         seek_sldr.value=current_position
         seek_sldr.max=duration
 
-        current_position_text_value=f"{('00'+str(current_position//1000//60))[-2:]}:{('00'+str(current_position//1000%60))[-2:]}"
-        current_position_text.value=current_position_text_value
+        if current_position_text_inverted_mode:
+            current_position=duration-current_position
+            current_position_text_value=f"-{('00'+str(current_position//1000//60))[-2:]}:{('00'+str(current_position//1000%60))[-2:]}"
+        else:
+            current_position_text_value=f"{('00'+str(current_position//1000//60))[-2:]}:{('00'+str(current_position//1000%60))[-2:]}"
+        current_position_text.text=current_position_text_value
 
         page.update()
+
+    def invert_current_position_text(_):
+        global current_position_text_inverted_mode,duration,current_position
+        current_position_text_inverted_mode=1-current_position_text_inverted_mode
 
     def playbtn_clk(_):
         global playback
@@ -64,9 +71,11 @@ def main(page: ft.Page):
         col=8.5
     )
 
-    current_position_text=ft.Text(
-        value=current_position_text_value,
-        width=40
+
+    current_position_text=ft.TextButton(
+        text=current_position_text_value,
+        col=2,
+        on_click=invert_current_position_text,
     )
 
     volume_sldr=ft.Slider(
@@ -77,9 +86,8 @@ def main(page: ft.Page):
     )
 
 
-    page.overlay.append(
-        audio
-    )
+    page.overlay.append(audio)
+
     page.add(
         ft.ResponsiveRow([
             playbtn,

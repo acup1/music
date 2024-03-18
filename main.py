@@ -79,14 +79,14 @@ def main(page: ft.Page):
     playbtn=ft.IconButton(
         icon=ft.icons.PLAY_CIRCLE,
         on_click=playbtn_clk,
-        expand=1,
+        col=1,
         icon_color=page.accent_color,
     )
 
     current_position_text=ft.TextButton(
         text=page.current_position_text_value,
         on_click=invert_current_position_text,
-        expand=1,
+        col=2,
         style=ft.ButtonStyle(
             color=page.accent_color,
         )
@@ -97,7 +97,7 @@ def main(page: ft.Page):
         max=1,
         value=.1,
         on_change=volume_sldr_change,
-        expand=2,
+        col=3,
         thumb_color=page.accent_color,
         active_color=page.accent_color,
     )
@@ -106,21 +106,35 @@ def main(page: ft.Page):
     page.overlay.append(audio)
 
     page.add(
-        ft.Row(
+        ft.ResponsiveRow(
             alignment=ft.MainAxisAlignment.CENTER,
             controls=[ft.Container(
                 padding=2,
                 border_radius=ft.border_radius.all(20),
                 bgcolor=ft.colors.BLACK,
-                width=600,
+                col=12,
                 content=ft.Column(controls=[
                     ft.Row([
                         seek_sldr,
                     ]),
-                    ft.Row([
-                        playbtn,
-                        current_position_text,
-                        volume_sldr   
+                    ft.ResponsiveRow([
+                        ft.Column([
+                                playbtn,
+                            ],
+                            col=1,
+                            alignment=ft.MainAxisAlignment.CENTER,
+                        ),
+                        ft.Column([
+                            current_position_text,
+                            ],
+                            col=1,
+                        ),
+                        ft.Column([
+                            volume_sldr,
+                            ],
+                            col=3,
+                            alignment=ft.MainAxisAlignment.END,
+                        ),
                     ])
                 ])
             )]

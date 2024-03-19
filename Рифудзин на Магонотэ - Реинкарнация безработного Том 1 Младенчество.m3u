@@ -1,0 +1,119 @@
+#EXTM3U
+#EXTINF:0,01.Пролог.mp3
+http://127.0.0.1:8090/stream/01.%D0%9F%D1%80%D0%BE%D0%BB%D0%BE%D0%B3.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=1&play
+#EXTINF:0,02.Глава 1 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/02.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%201%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=2&play
+#EXTINF:0,03.Глава 1 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/03.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%201%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=3&play
+#EXTINF:0,04.Глава 1 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/04.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%201%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=4&play
+#EXTINF:0,05.Глава 1 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/05.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%201%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=5&play
+#EXTINF:0,06.Глава 2 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/06.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%202%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=6&play
+#EXTINF:0,07.Глава 2 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/07.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%202%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=7&play
+#EXTINF:0,08.Глава 2 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/08.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%202%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=8&play
+#EXTINF:0,09.Глава 2 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/09.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%202%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=9&play
+#EXTINF:0,10.Глава 3 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/10.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=10&play
+#EXTINF:0,11.Глава 3 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/11.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=11&play
+#EXTINF:0,12.Глава 3 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/12.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=12&play
+#EXTINF:0,13.Глава 3 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/13.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=13&play
+#EXTINF:0,14.Глава 3 ( Часть 5).mp3
+http://127.0.0.1:8090/stream/14.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%205%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=14&play
+#EXTINF:0,15.Глава 3 ( Часть 6).mp3
+http://127.0.0.1:8090/stream/15.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%206%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=15&play
+#EXTINF:0,16.Глава 3 ( Часть 7).mp3
+http://127.0.0.1:8090/stream/16.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%207%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=16&play
+#EXTINF:0,17.Глава 3 ( Часть 8).mp3
+http://127.0.0.1:8090/stream/17.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%208%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=17&play
+#EXTINF:0,18.Глава 4 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/18.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=18&play
+#EXTINF:0,19.Глава 4 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/19.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=19&play
+#EXTINF:0,20.Глава 4 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/20.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=20&play
+#EXTINF:0,21.Глава 4 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/21.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=21&play
+#EXTINF:0,22.Глава 4 ( Часть 5).mp3
+http://127.0.0.1:8090/stream/22.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%205%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=22&play
+#EXTINF:0,23.Глава 4 ( Часть 6).mp3
+http://127.0.0.1:8090/stream/23.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%206%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=23&play
+#EXTINF:0,24.Глава 4 ( Часть 7).mp3
+http://127.0.0.1:8090/stream/24.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%207%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=24&play
+#EXTINF:0,25.Глава 4 ( Часть 8).mp3
+http://127.0.0.1:8090/stream/25.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%208%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=25&play
+#EXTINF:0,26.Глава 4 ( Часть 9).mp3
+http://127.0.0.1:8090/stream/26.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%204%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%209%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=26&play
+#EXTINF:0,27.Глава 5 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/27.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%205%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=27&play
+#EXTINF:0,28.Глава 5 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/28.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%205%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=28&play
+#EXTINF:0,29.Глава 5 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/29.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%205%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=29&play
+#EXTINF:0,30.Глава 5 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/30.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%205%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=30&play
+#EXTINF:0,31.Глава 6 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/31.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%206%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=31&play
+#EXTINF:0,32.Глава 6 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/32.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%206%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=32&play
+#EXTINF:0,33.Глава 6 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/33.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%206%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=33&play
+#EXTINF:0,34.Глава 6 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/34.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%206%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=34&play
+#EXTINF:0,35.Глава 6 ( Часть 5).mp3
+http://127.0.0.1:8090/stream/35.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%206%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%205%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=35&play
+#EXTINF:0,36.Глава 7 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/36.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%207%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=36&play
+#EXTINF:0,37.Глава 7 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/37.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%207%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=37&play
+#EXTINF:0,38.Глава 7 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/38.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%207%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=38&play
+#EXTINF:0,39.Глава 7 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/39.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%207%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=39&play
+#EXTINF:0,40.Глава 7 ( Часть 5).mp3
+http://127.0.0.1:8090/stream/40.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%207%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%205%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=40&play
+#EXTINF:0,41.Глава 7 ( Часть 6).mp3
+http://127.0.0.1:8090/stream/41.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%207%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%206%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=41&play
+#EXTINF:0,42.Глава 8 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/42.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=42&play
+#EXTINF:0,43.Глава 8 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/43.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=43&play
+#EXTINF:0,44.Глава 8 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/44.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=44&play
+#EXTINF:0,45.Глава 8 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/45.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=45&play
+#EXTINF:0,46.Глава 8 ( Часть 5).mp3
+http://127.0.0.1:8090/stream/46.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%205%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=46&play
+#EXTINF:0,47.Глава 8 ( Часть 6).mp3
+http://127.0.0.1:8090/stream/47.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%206%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=47&play
+#EXTINF:0,48.Глава 8 ( Часть 7).mp3
+http://127.0.0.1:8090/stream/48.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%207%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=48&play
+#EXTINF:0,49.Глава 8 ( Часть 8).mp3
+http://127.0.0.1:8090/stream/49.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%208%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=49&play
+#EXTINF:0,50.Глава 8 ( Часть 9).mp3
+http://127.0.0.1:8090/stream/50.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%208%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%209%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=50&play
+#EXTINF:0,51.Глава 9 ( Часть 1).mp3
+http://127.0.0.1:8090/stream/51.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%209%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=51&play
+#EXTINF:0,52.Глава 9 ( Часть 2).mp3
+http://127.0.0.1:8090/stream/52.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%209%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=52&play
+#EXTINF:0,53.Глава 9 ( Часть 3).mp3
+http://127.0.0.1:8090/stream/53.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%209%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%203%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=53&play
+#EXTINF:0,54.Глава 9 ( Часть 4).mp3
+http://127.0.0.1:8090/stream/54.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%209%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%204%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=54&play
+#EXTINF:0,55.Глава 9 ( Часть 5).mp3
+http://127.0.0.1:8090/stream/55.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%209%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%205%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=55&play
+#EXTINF:0,56.Глава 9 ( Часть 6).mp3
+http://127.0.0.1:8090/stream/56.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%209%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%206%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=56&play
+#EXTINF:0,57.Глава 9 ( Часть 7).mp3
+http://127.0.0.1:8090/stream/57.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%209%20%28%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%207%29.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=57&play
+#EXTINF:0,58.Глава 10.mp3
+http://127.0.0.1:8090/stream/58.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%2010.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=58&play
+#EXTINF:0,59.Глава 11.mp3
+http://127.0.0.1:8090/stream/59.%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%2011.mp3?link=104869ff2f2cf76a69e09a2a3a5a4bcb14235785&index=59&play

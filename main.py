@@ -1,7 +1,4 @@
 import flet as ft
-import asyncio,threading
-
-
 
 
 def main(page: ft.Page):
@@ -9,6 +6,7 @@ def main(page: ft.Page):
     page.duration=0
     page.current_position=0
     page.current_position_text_value="00:00"
+    page.duration_timeformat="00:00"
     page.current_position_text_inverted_mode=0
     page.accent_color=ft.colors.WHITE
 
@@ -18,29 +16,26 @@ def main(page: ft.Page):
 
         seek_sldr.value=page.current_position
         seek_sldr.max=page.duration
+        update_time()        
 
+    def update_time():
+        page.duration_timeformat=f"{('00'+str(page.duration//1000//60))[-2:]}:{('00'+str(page.duration//1000%60))[-2:]}"
         if page.current_position_text_inverted_mode:
             page.current_position=page.duration-page.current_position
             page.current_position_text_value=f"-{('00'+str(page.current_position//1000//60))[-2:]}:{('00'+str(page.current_position//1000%60))[-2:]}"
         else:
             page.current_position_text_value=f"{('00'+str(page.current_position//1000//60))[-2:]}:{('00'+str(page.current_position//1000%60))[-2:]}"
-        current_position_text.text=page.current_position_text_value
-
-
+        current_position_text.text=page.current_position_text_value+"/"+page.duration_timeformat
         page.update()
+
 
     def invert_current_position_text(_):
         page.current_position_text_inverted_mode=1-page.current_position_text_inverted_mode
-        if page.current_position_text_inverted_mode:
-            page.current_position=page.duration-page.current_position
-            page.current_position_text_value=f"-{('00'+str(page.current_position//1000//60))[-2:]}:{('00'+str(page.current_position//1000%60))[-2:]}"
-        else:
-            page.current_position_text_value=f"{('00'+str(page.current_position//1000//60))[-2:]}:{('00'+str(page.current_position//1000%60))[-2:]}"
-        current_position_text.text=page.current_position_text_value
+        update_time()
 
         page.update()
 
-    def playbtn_clk(_):
+    def playbtn_clk(_=None):
         if page.playback:
             page.playback=False
             audio.pause()
@@ -58,6 +53,19 @@ def main(page: ft.Page):
     def volume_sldr_change(_):
         audio.volume=volume_sldr.value
         audio.update()
+
+    def on_keyboard(e: ft.KeyboardEvent):
+        #print(e.key)
+        if e.key==" ":
+            playbtn_clk()
+        elif e.key=="Arrow Right":
+            audio.seek(int(min(seek_sldr.value+10000,page.duration-1)))
+            audio.update()
+        elif e.key=="Arrow Left":
+            audio.seek(int(max(seek_sldr.value-10000,0)))
+            audio.update()
+
+    page.on_keyboard_event = on_keyboard
 
     audio = ft.Audio(
         src="https://luan.xyz/files/audio/ambient_c_motion.mp3",
@@ -84,7 +92,7 @@ def main(page: ft.Page):
     )
 
     current_position_text=ft.TextButton(
-        text=page.current_position_text_value,
+        text="--:--/--:--",
         on_click=invert_current_position_text,
         col=2,
         style=ft.ButtonStyle(
@@ -107,7 +115,7 @@ def main(page: ft.Page):
 
     page.add(
         ft.ResponsiveRow(
-            alignment=ft.MainAxisAlignment.CENTER,
+            vertical_alignment=ft.MainAxisAlignment.CENTER,
             controls=[ft.Container(
                 padding=2,
                 border_radius=ft.border_radius.all(20),
@@ -117,22 +125,24 @@ def main(page: ft.Page):
                     ft.Row([
                         seek_sldr,
                     ]),
-                    ft.ResponsiveRow([
+                    ft.Row([
+                        ft.Column([
+                                current_position_text,
+                            ],
+                            expand=7,
+                            alignment=ft.MainAxisAlignment.START,
+                        ),
                         ft.Column([
                                 playbtn,
                             ],
-                            col=1,
+                            expand=4,
                             alignment=ft.MainAxisAlignment.CENTER,
                         ),
+                        ft.Container(expand=1,content=ft.Text("")),
                         ft.Column([
-                            current_position_text,
+                                volume_sldr,
                             ],
-                            col=1,
-                        ),
-                        ft.Column([
-                            volume_sldr,
-                            ],
-                            col=3,
+                            expand=4,
                             alignment=ft.MainAxisAlignment.END,
                         ),
                     ])

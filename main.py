@@ -65,7 +65,7 @@ def main(page: ft.Page):
             audio.seek(int(max(seek_sldr.value-10000,0)))
             audio.update()
 
-    page.on_keyboard_event = on_keyboard
+    page.on_keyboard_event = on_keyboard    
 
     audio = ft.Audio(
         src="https://luan.xyz/files/audio/ambient_c_motion.mp3",
